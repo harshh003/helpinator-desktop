@@ -1,0 +1,12 @@
+# Configuration for git attributes
+src/**/*.ts linguist-detectable
+public/index.html linguist-vendored
+*.map linguist-generated
+yarn.lock linguist-generated
+*.yml linguist-detectable=false
+*.png binary
+
+vendor/* linguist-vendored
+*.json linguist-detectable=false
+*.jpg binary
+# eof 578b11cb
